@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NguyenTuanThanh_705105110</string>
+    
+    <!-- Activity Titles -->
+    <string name="title_activity_login">Đăng nhập</string>
+    <string name="title_activity_register">Đăng ký</string>
+    <string name="title_activity_edit_book">Sửa sách</string>
+    
+    <!-- Login/Register -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="prompt_confirm_password">Xác nhận mật khẩu</string>
+    <string name="action_sign_in">Đăng nhập</string>
+    <string name="action_sign_in_short">Đăng nhập</string>
+    <string name="action_register">Đăng ký</string>
+    <string name="action_logout">Đăng xuất</string>
+    <string name="login_failed">Đăng nhập thất bại</string>
+    <string name="registration_successful">Đăng ký thành công</string>
+    <string name="logout_successful">Đăng xuất thành công</string>
+    <string name="password_mismatch">Mật khẩu không khớp</string>
+    <string name="welcome">Chào mừng</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="reset_password">Đặt lại mật khẩu</string>
+    <string name="reset_password_sent">Email đặt lại mật khẩu đã được gửi</string>
+    <string name="reset_password_error">Lỗi khi gửi email đặt lại mật khẩu</string>
+    <string name="enter_email_for_reset">Nhập email để đặt lại mật khẩu</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_books">Sách</string>
+    <string name="nav_add">Thêm sách</string>
+    <string name="nav_profile">Cá nhân</string>
+    
+    <!-- Error Messages -->
+    <string name="error_invalid_email">Email không hợp lệ</string>
+    <string name="error_weak_password">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="error_email_already_in_use">Email đã được sử dụng</string>
+    <string name="error_user_not_found">Không tìm thấy tài khoản</string>
+    <string name="error_wrong_password">Mật khẩu không đúng</string>
+    <string name="error_network">Lỗi kết nối mạng</string>
+    <string name="error_unknown">Đã xảy ra lỗi không xác định</string>
+    
+    <!-- Validation -->
+    <string name="invalid_username">Tên đăng nhập không hợp lệ</string>
+    <string name="invalid_password">Mật khẩu phải có ít nhất 6 ký tự</string>
+    
+    <!-- Book Management -->
+    <string name="add_book">Thêm sách</string>
+    <string name="edit_book">Sửa sách</string>
+    <string name="search_books">Tìm kiếm sách...</string>
+    <string name="filter_2025">Lọc sách 2025</string>
+    <string name="show_all">Hiện tất cả</string>
+    <string name="no_books">Chưa có sách nào</string>
+    <string name="add_first_book">Hãy thêm sách đầu tiên vào thư viện</string>
+    
+    <!-- Add Book Form -->
+    <string name="book_code">Mã sách</string>
+    <string name="book_title">Tên sách</string>
+    <string name="book_category">Thể loại</string>
+    <string name="book_author">Tác giả</string>
+    <string name="book_entry_date">Ngày nhập kho</string>
+    <string name="book_price">Giá (VNĐ)</string>
+    <string name="book_image">Ảnh sách</string>
+    <string name="book_image_url">Đường dẫn ảnh (tùy chọn)</string>
+    <string name="pick_image">Chọn ảnh</string>
+    <string name="select_book_image">Chọn ảnh sách</string>
+    <string name="image_process_error">Lỗi khi xử lý ảnh</string>
+    <string name="add_book_error">Lỗi khi thêm sách (có thể mã sách đã tồn tại)</string>
+    <string name="book_not_found">Không tìm thấy sách</string>
+    <string name="edit_book_error">Lỗi: Không có thông tin sách</string>
+    <string name="update_book_success">Cập nhật sách thành công</string>
+    <string name="update_book_error">Lỗi khi cập nhật sách</string>
+    <string name="cancel">Hủy</string>
+    <string name="save">Lưu</string>
+    <string name="ok">OK</string>
+    <string name="add_book_success">Thêm sách thành công!</string>
+    <string name="image_save_error">Lỗi khi lưu ảnh</string>
+    
+    <!-- Profile -->
+    <string name="account_info">Thông tin tài khoản</string>
+    <string name="account_type">Loại tài khoản</string>
+    <string name="user_type">Người dùng</string>
+    <string name="app_info">Thông tin ứng dụng</string>
+    <string name="app_version">Phiên bản 1.0.0</string>
+    <string name="app_description">Ứng dụng quản lý thư viện sách</string>
+    <string name="select_profile_image">Chọn ảnh đại diện</string>
+    <string name="profile_image_updated">Đã cập nhật ảnh đại diện</string>
+    <string name="profile_image_error">Lỗi khi lưu ảnh đại diện</string>
+    
+    <!-- Home -->
+    <string name="welcome_message">Chào mừng bạn đến với Thư Viện Số!</string>
+    <string name="total_books">Tổng sách</string>
+    <string name="recent_books">Sách mới</string>
+    <string name="quick_actions">Thao tác nhanh</string>
+    <string name="add_new_book">Thêm sách mới</string>
+    <string name="add_book_description">Thêm sách vào thư viện</string>
+    <string name="view_all_books">Xem tất cả sách</string>
+    <string name="view_books_description">Duyệt qua thư viện sách</string>
+    
+    <!-- QR Scanner -->
+    <string name="scan_qr_code">Quét mã QR</string>
+    <string name="scan_qr_instruction">Đặt mã QR vào khung để quét</string>
+    <string name="scanning_book_info">Quét thông tin sách</string>
+    <string name="scanning_instruction">Đặt mã QR của sách vào khung hình</string>
+    <string name="qr_detector_not_available">Trình quét QR không khả dụng</string>
+    <string name="camera_permission_required">Cần quyền truy cập camera để quét QR</string>
+    <string name="qr_scan_success">Quét QR thành công</string>
+    <string name="qr_scan_failed">Quét QR thất bại</string>
+    <string name="invalid_qr_data">Dữ liệu QR không hợp lệ</string>
+    <string name="book_info_from_qr">Thông tin sách từ QR</string>
+    <string name="scan_qr_button">Quét QR</string>
+    <string name="qr_scan_book_info">Quét QR để lấy thông tin sách</string>
+    <string name="camera_error">Lỗi khởi động camera</string>
+</resources>
